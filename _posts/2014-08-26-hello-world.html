@@ -18,6 +18,11 @@ categories:
 tags:
 
 image1: http://critterbabies.com/wp-content/uploads/2014/01/baby-sloth.jpg
+useful:
+  links:
+    - http://google.com
+    - https://github.com
+    - https://gist.github.com
   
 ---
 
@@ -43,3 +48,9 @@ This is a boilerplate post for making Jekyll pages.
 ## AWWWW BABY SLOTHES!!!
 
 ![Babies]({{page.image1}})
+
+## References
+
+{% for urls in page.useful.links %}
+{{urls}}
+{% endfor %}
