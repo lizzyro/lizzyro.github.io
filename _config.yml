@@ -1,14 +1,13 @@
 # Site settings
 # Enter your own credentials here
-title: "My Blog"
-email: you@somewhere.com
+title: "The Blog"
+email: lizzyro@gmail.com
 description: >
   Tell us about your site
-baseurl: "/research-pages" # replace ``/research-pages`` with the name of the parents repository
-url: "Materials-Informatics-Lab.github.io" # replate ``Materials-Informatics-Lab`` with your Github username
-twitter_username: twitterhandle
-github_username:  username
-disqus: anotheruser
+baseurl: "" # replace ``/research-pages`` with the name of the parents repository
+url: "lizzyro.github.io" # replate ``Materials-Informatics-Lab`` with your Github username
+github_username:  lizzyro
+disqus: lizzyro
 
 # Build settings
 markdown: kramdown
